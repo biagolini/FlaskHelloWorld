@@ -75,9 +75,15 @@ ip a
 
 12. **Access the Flask App from Your Host**: On your host machine (Windows 11), open a web browser and navigate to the IP address of the VM followed by the port number. For example: `http://192.168.1.15:5000/`.
 
-# Reference
+# Explore Alternative Deployment Options
 
-Pythonbasics (2023) Flask Tutorial: Hello World. Retrieved from: https://pythonbasics.org/flask-tutorial-hello-world/ (Accessed: 2023-10-03).
+As you dive into the world of Flask deployment, it's essential to be aware of the various methods available. Depending on your project requirements, infrastructure, and familiarity, you might find one method more suitable than the other. We've provided tutorials for two popular deployment methods: using Virtual Machines (VM) and Docker containers. 
+
+- **Using VM**: If you're currently exploring the Docker-based tutorial, you might want to check out the VM-based deployment method. It provides a more traditional approach, allowing you to deploy your Flask app inside a Fedora 38 Virtual Box VM hosted on Windows 11. Learn more about this method [here](https://github.com/biagolini/PythonFlaskHelloWorldOnVM).
+
+- **Using Docker**: If you're on the VM-based tutorial, consider exploring the Docker-based deployment. Docker offers a containerized solution, ensuring that your app and its dependencies are isolated, making it a popular choice for modern deployments. Dive into the Docker tutorial [here](https://github.com/biagolini/PythonFlaskHelloWorldOnDocker).
+
+By familiarizing yourself with both methods, you can make an informed decision on which deployment strategy aligns best with your project needs.
 
 # Git repository config
 
@@ -100,3 +106,7 @@ git config --global alias.ignore '!gi() { curl -sL https://www.gitignore.io/api/
 ```bash
 git ignore python > .gitignore
 ```
+
+# Reference
+
+Pythonbasics (2023) Flask Tutorial: Hello World. Retrieved from: https://pythonbasics.org/flask-tutorial-hello-world/ (Accessed: 2023-10-03).
